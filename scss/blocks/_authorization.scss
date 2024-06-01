@@ -1,0 +1,130 @@
+// // * {
+// //     box-sizing: border-box;
+// //     margin: 0;
+// //     padding: 0;
+// // }
+
+// // body {
+// //     font-family: 'Inter', sans-serif;
+// //     line-height: 1.6;
+// //     background-color: $white;
+// // }
+
+// .container {
+//     width: 80%;
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 20px;
+// }
+
+// header {
+//     background-color: $white;
+//     padding: 20px 0;
+// }
+
+// .logo {
+//     font-size: 24px;
+//     font-weight: bold;
+// }
+
+// .logo .logo-text {
+//     color: $dark;
+// }
+
+// .logo .logo-highlight {
+//     color: $orange;
+// }
+
+// .nav-list-orange:hover {
+//     color: $orange;
+// }
+
+// main {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 80vh;
+// }
+
+// .login-section {
+//     background: $white;
+//     padding: 30px;
+//     border-radius: 8px;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     text-align: center;
+//     width: 100%;
+//     max-width: 400px;
+// }
+
+// .login-section h1 {
+//     margin-bottom: 20px;
+// }
+
+// .login-section p {
+//     margin-bottom: 10px;
+// }
+
+// .login-section form {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .login-section form label {
+//     margin-bottom: 5px;
+//     text-align: left;
+// }
+
+// .login-section form input {
+//     padding: 10px;
+//     margin-bottom: 15px;
+//     border: 1px solid #ccc;
+//     border-radius: 4px;
+// }
+
+// .login-section form .forgot-password {
+//     margin-bottom: 15px;
+//     color: $orange;
+//     text-decoration: none;
+// }
+
+// .login-section form .forgot-password:hover {
+//     text-decoration: underline;
+// }
+
+// .login-section form button {
+//     padding: 10px;
+//     background: $orange;
+//     color: $white;
+//     border: none;
+//     border-radius: 4px;
+//     cursor: pointer;
+// }
+
+// .login-section form button:hover {
+//     background: $orange;
+// }
+
+// .login-section p a {
+//     color: $orange;
+//     text-decoration: none;
+// }
+
+// .login-section p a:hover {
+//     text-decoration: underline;
+// }
+
+// @media (max-width: 768px) {
+//     header .container,
+//     main .container {
+//         width: 95%;
+//     }
+
+//     nav ul {
+//         flex-direction: column;
+//     }
+
+//     nav ul li {
+//         margin-left: 0;
+//         margin-bottom: 10px;
+//     }
+// }

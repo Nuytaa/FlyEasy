@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyEasy</title>
+    <link rel="icon" type="image/png" href="./img/plane.png">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/header/logo_auto.png" alt="Логотип">
+            </div>
+            <div class="logo none">
+                <img src="./img/header/plane.png" alt="Логотип">
+            </div>
+            <nav>
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-list orange" id="nav-list">
+                    <li><a href="./index.html">О компании</a></li>
+                    <li><a href="./index.html">Путешествия</a></li>
+                    <li><a href="./index.html">Куда поехать</a></li>
+                    <li><a href="./index.html">Контакты</a></li>
+                    <div class="auth">
+                        <a href="./auto.html">Вход / Регистрация</a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="login-section">
+                <h1>Войдите в аккаунт</h1>
+                <p>Введите логин и пароль в форме ниже</p>
+                <form action="#" method="post">
+                    <label for="username">Имя</label>
+                    <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required>
+                    
+                    <label for="password">Пароль*</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <a href="#" class="forgot-password">Восстановить пароль</a>
+                    <button type="submit">Войти</button>
+                </form>
+                <p>Нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
